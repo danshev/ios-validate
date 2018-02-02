@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>invalid-id-error-message</key>
+	<string>The Customer needs to retrieve an updated version of his / her Digital ID.</string>
+	<key>iBeaconIdentifier</key>
+	<string>gov.dhs.digital-drivers-license</string>
+	<key>iBeaconUUID</key>
+	<string>04CAB66E-7BFF-43EB-9E85-F2F3AC23DC75</string>
+	<key>fetch-profile-image-endpoint</key>
+	<string>http://api.level-of-knowledge.com:2006/validate?serialNumber=</string>
+	<key>online-validation-endpoint</key>
+	<string>http://api.level-of-knowledge.com:2006/validate?assertionHash=</string>
+	<key>sync-keys-endpoint</key>
+	<string>http://api.level-of-knowledge.com:3000/public-keys</string>
+	<key>server-error-message</key>
+	<string>We&apos;re sorry, a server error occurred. Please tap validate in offline mode.</string>
+</dict>
+</plist>
